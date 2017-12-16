@@ -1,0 +1,39 @@
+cara download repositories
+
+tahap pertama masuk ke git hub dan git cmd
+kedua buka repositories tugas akhir3
+ketiga ketik git clone pada git cmd, jangan langsung tekan enter
+setelah itu copy paste url alamat repositories tugas akhir3 ke git cmd, di samping git clone
+tekan enter
+nanti akan keluar tulisan unpacking objects : 100%  (x/x) done
+cek folder tugas akhir3 pada penyimpanan pc 
+
+cara upload repositories
+
+pertama masuk ke directory file (tugas akhir 3) yang telah didownload menggunakan git clone
+kedua copy paste project/file anda ke dalam directory file tersebut
+folder yang digunakan adalah tugas akhir 3
+buka git cmd
+ketikkan git add "nama file yang akan di upload". lalu tekan enter
+ketikkan git commit -m "deskripsi yang akan anda berikan bebas" tekan enter
+akan keluar tulisan x file changed x insertions (+)
+tahap akhir ketik git push origin master
+done, tunggu sesaat. Masukan username dan password jika diperlukan
+akan keluar tulisan counting objects dll
+reload git hub anda
+
+
+contoh nyata
+git clone https://github.com/Konpro-01/Tugas-Akhir3/new/master
+git add translate01.py
+git commit -m "tolong dibenarkan"
+git push origin master
+
+
+
+
+
+
+
+
+

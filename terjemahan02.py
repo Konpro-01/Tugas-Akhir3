@@ -1,8 +1,9 @@
+#kamus gado-gado
 #nama program
 print ("Alat Terjemahan Angka Sederhana \n")
 #database terjemahan
 Dictionary = {1:"one", 2:"dua", 3:"tiga",4:"four",5:"five",6:"six",7:"seven", 8:"eight", 9:"nine", 10:"ten"}
-Kamus_Palembang = {1:"sikok", 2:"duo", 3:"tigo", 4:"empat", 5:"limo", 6:"enem", 7:"tojo", 8:"lapan", 9:"sembilan", 10:"sepulo"}
+Kamus_Palembang = {1:"sikok", 2:"duo", 3:"tigo", 4:"empat", 5:"limo", 6:"enem", 7:"tojo", 8:"lapan", 9:"sembilan", 10:"sepolo"}
 
 #Fungsi untuk mendefinisikan option yang akan dipilih
 def option ():

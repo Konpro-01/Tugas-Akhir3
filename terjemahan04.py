@@ -1,7 +1,7 @@
 #program login
 username=(str(input("Masukan Username Anda : ")))
-Password=(str(input("Masukan Password Anda : ")))
-if(username=="admin" and Password=="1234"):
+Password=(int(input("Masukan Password Anda : ")))
+if(username=="admin" and Password== 1234):
         print("Anda telah login\n")
 else:
         print ("Nama atau sandi anda benar\n")
